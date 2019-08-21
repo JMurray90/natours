@@ -1,0 +1,17 @@
+*, 
+*::after, 
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This is for definition of 1rem...not actual font styling
+  font-size: 10px;
+}
+
+body {
+  padding: 3rem;
+  box-sizing: border-box;
+}
